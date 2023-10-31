@@ -1,0 +1,29 @@
+.spinner-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+  }
+
+.loader {
+    width: 35px;
+    height: 35px;
+    border: 6px solid #000;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotate 1s linear infinite;
+    }
+
+    @keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    }
+    input {
+        background-color: #f2f2f2 !important;
+    } 
